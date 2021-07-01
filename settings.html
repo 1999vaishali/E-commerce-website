@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Settings</title>
+        <!--        Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <body background="C:\Users\Sanjay\Downloads\web development\website_back.jpg">
+        <style>
+        	.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+.decor{
+                margin:100px 400px 0 400px;
+            }
+            .hello {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:grey; left:0px; top:0px;}
+  25%  {background-color:red; left:1190px; top:0px;}
+  50%  {background-color:yellow; left:1190px; top:520px;}
+  75%  {background-color:red; left:0px; top:520px;}
+  100% {background-color:grey; left:0px; top:0px;}
+}
+.decor1{
+    padding-top: 13px;
+}
+ </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Lifestyle Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Setting</a></li>
+                    <li><a href="C:\Users\Sanjay\Downloads\web development\login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                    <li><a href="C:\Users\Sanjay\Downloads\web development\Lifestyle_store.html"><span class="glyphicon glyphicon-stats"></span> About</a></li>
+                </ul>
+            </div>      
+      </div>
+    </nav>
+    <div class="hello decor1"><h1 align="center"><span class="glyphicon glyphicon-shopping-cart"></span> </h1></div>
+    <div class="container">
+        <div class="decor">
+        <h2 style="color:#000000;">Change password</h2>
+        <div class="form-group">
+    <input type="email" class="form-control" placeholder="Old Password" id="pwd">
+  </div>
+   <div class="form-group">
+    <input type="email" class="form-control" placeholder="New Password" id="pwd">
+  </div>
+   <div class="form-group">
+    <input type="email" class="form-control" placeholder="Re-type Password" id="pwd">
+  </div>
+  <a href="C:\Users\Sanjay\Downloads\web development\login.html"class="btn btn-primary">Change</a></div>
+</div>
+    <div class="footer">
+  <p align="center">Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+</div>
+    </body>
+    </html>
